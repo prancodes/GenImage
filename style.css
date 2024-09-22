@@ -23,19 +23,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 40px;
 }
 
 .img-container {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 5px;
 }
 
 img {
     border-radius: 10px;
     border: 1px solid;
-    margin: 12px 8px;
+    margin: 5px 0px;
     box-shadow: 2px 2px 5px black;
+}
+
+@media(min-width : 600px) {
+    .img-container {
+        gap: 15px;
+    }
 }
 
 #ErrorTab {
@@ -71,7 +79,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
 }
 

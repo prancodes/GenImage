@@ -1,4 +1,4 @@
-let api = "https://picsum.photos/120/150";
+let api = "https://picsum.photos/150/200";
 
 async function RandomImg() {
     
